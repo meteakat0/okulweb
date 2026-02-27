@@ -23,3 +23,13 @@ npm-debug.log*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar

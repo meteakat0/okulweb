@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OkulWeb - Ana Sayfa</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-content">
+        <a href="/" class="logo">OkulWeb</a>
+        <ul class="nav-links">
+            <li><a href="/" class="active">Ana Sayfa</a></li>
+            <li><a href="/hakkimizda">Hakkımızda</a></li>
+            <li><a href="/iletisim">İletişim</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Geleceği Birlikte İnşa Ediyoruz</h1>
+        <p>Kaliteli eğitim, güçlü gelecek. Öğrencilerimizi yarının liderlerine dönüştürüyoruz.</p>
+        <a href="/hakkimizda" class="btn btn-primary">Daha Fazla Bilgi</a>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">Neden Biz?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Modern Müfredat</h3>
+                <p>Güncel ve yenilikçi eğitim programlarıyla öğrencilerimizi geleceğe hazırlıyoruz.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👨‍🏫</div>
+                <h3>Uzman Kadro</h3>
+                <p>Alanında deneyimli öğretmenlerimiz ile en iyi eğitimi sunuyoruz.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏫</div>
+                <h3>Modern Kampüs</h3>
+                <p>Teknolojik altyapıya sahip sınıflar ve laboratuvarlar ile donatılmış kampüs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>Başarı Odaklı</h3>
+                <p>Ulusal ve uluslararası sınavlarda üst düzey başarı oranları.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">1200+</span>
+                <span class="stat-label">Öğrenci</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">85+</span>
+                <span class="stat-label">Öğretmen</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">25</span>
+                <span class="stat-label">Yıllık Deneyim</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">%98</span>
+                <span class="stat-label">Memnuniyet</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="announcements">
+    <div class="container">
+        <h2 class="section-title">Duyurular</h2>
+        <div class="announcements-list">
+            <div class="announcement-card">
+                <span class="announcement-date">27 Şubat 2026</span>
+                <h3>Bahar Dönemi Kayıtları Başladı</h3>
+                <p>2026 Bahar dönemi kayıtlarımız devam etmektedir. Detaylı bilgi için iletişime geçiniz.</p>
+            </div>
+            <div class="announcement-card">
+                <span class="announcement-date">20 Şubat 2026</span>
+                <h3>Bilim Fuarı Hazırlıkları</h3>
+                <p>Yıllık bilim fuarımız Mart ayında gerçekleşecektir. Projelerinizi hazırlamaya başlayın.</p>
+            </div>
+            <div class="announcement-card">
+                <span class="announcement-date">15 Şubat 2026</span>
+                <h3>Spor Turnuvası Sonuçları</h3>
+                <p>Okullar arası spor turnuvasında öğrencilerimiz büyük başarı elde etmiştir.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-section">
+            <h3>OkulWeb</h3>
+            <p>Kaliteli eğitimde öncü kurum.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Hızlı Erişim</h3>
+            <ul>
+                <li><a href="/">Ana Sayfa</a></li>
+                <li><a href="/hakkimizda">Hakkımızda</a></li>
+                <li><a href="/iletisim">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>İletişim</h3>
+            <p>Email: info@okulweb.com</p>
+            <p>Tel: +90 212 555 00 00</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 OkulWeb. Tüm hakları saklıdır.</p>
+    </div>
+</footer>
+
+</body>
+</html>
